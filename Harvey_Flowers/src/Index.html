@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<title>Harvey Capstone</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body, h1, h2, h3, h4, h5 {
+        font-family: "Didot", serif
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #333333;
+    }
+
+    .active {
+        background-color: #333333;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 300px 300px 300px;
+    }
+
+    #Abraham {
+        width: 100%;
+        height: 100%;
+        object-fit: scale-down;
+
+    }
+
+    .headerPic {
+        width: 20%;
+    }
+
+    .myTitle {
+        text-align: center;
+    }
+
+    .floatLeft {
+        float: left;
+    }
+
+    .floatRight {
+        float: right;
+    }
+
+    .containerss {
+        display: flex;
+        align-items: center;
+    }
+</style>
+<body class="w3-light-grey">
+
+<div class="w3-content" style="max-width:1400px">
+
+    <!-- Header -->
+    <header class="containerss">
+        <img class="headerPic floatLeft" src="../resources/photos/FINAL/RaisingOfLazarus.png" width=20%/>
+        <div class="myTitle">
+            <h1><b>Flowers of the Bible</b></h1>
+            <p>A series of hand carved relief prints that depict a variety of biblical scenes through an extended
+                metaphor derived from Luke.</p>
+        </div>
+        <img class="headerPic floatRight" src="../resources/photos/FINAL/Abraham.png" width=20%/>
+    </header>
+    <!-- End Header -->
+    <!-- Menu -->
+    <div>
+        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #000000;">
+            <li><a class="active" href="Index.html">Home</a></li>
+            <li><a href="Artist_Statement.html">Artist Statement</a></li>
+            <li><a href="Project_Statement.html">Project Statement</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="PDF_Book.html">PDF Book</a></li>
+        </ul>
+    </div>
+    <!-- End Menu -->
+    <!-- Bible Verse -->
+    <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+            <h5>Luke <span class="w3-opacity">12:27-28</span></h5>
+        </div>
+
+        <div class="w3-container">
+            <p><sup> 27 </sup> Consider the lilies how they grow: they toil not, they spin not; and yet I say unto
+                you, that Solomon in all his glory was not arrayed like one of these. <sup> 28 </sup> If then God
+                so clothe the grass, which is to day in the field, and to morrow is cast into the oven; how much
+                more will he clothe you, O ye of little faith?</p>
+            <div class="w3-row">
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="w3-row">
+        <div class="w3-col l8 s12">
+            <!-- PHOTO GALLERY -->
+            <img id="Abraham" src="../resources/photos/FINAL/Abraham.GIF">
+        </div>
+
+        <!-- Introduction menu -->
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <h3 style="margin-left: 16px">Artist Statement</h3>
+            <div class="w3-card w3-margin w3-margin-top">
+                <div class="w3-container w3-white">
+                    <p>For me, art is as much about the process as it is about the final product. I am a relief
+                        printer, screen printer, digital artist, and software engineer. Art is usually a break for me
+                        from the occasional
+                        monotony of computer science classes. My art has been inspired from a variety of sources:
+                        everything from nature to religion,
+                        from pop culture to mathematics<span>...</span></p>
+                    <form action="Artist_Statement.html">
+                        <input type="submit" value="Read More"/>
+                    </form>
+                    </br>
+                </div>
+            </div>
+            <hr>
+
+            <h3 style="margin-left: 16px">Project Statement</h3>
+            <div class="w3-card w3-margin w3-margin-top">
+                <div class="w3-container w3-white">
+                    <p>Biblical scenes have been the subject of many paintings and other pieces throughout history;
+                        however, in recent times these scenes have become less and less common. Biblical scenes were
+                        powerful subject matters because of the ubiquity of the Bible and the inherent emotion of the
+                        scenes. Although the popularity of Christianity has ebbed and flowed throughout history, the
+                        scenes never lose the emotional tension that makes many of these paintings so special.
+                        Further, symbolism is ubiquitous in both the Bible and in visual art. The Bible contains a
+                        broad swath of symbols, from rainbows to stairs to doves. Flowers are referenced throughout
+                        the Bible, often used as metaphors for the human condition<span>...</span>
+                    </p>
+                    <form action="Project_Statement.html">
+                        <input type="submit" value="Read More"/>
+                    </form>
+                    </br>
+                </div>
+            </div>
+            <hr>
+            <!-- END Introduction Menu -->
+
+        </div>
+        <!-- END GRID -->
+    </div>
+    <br>
+</div>
+</body>
+
+<!-- Footer -->
+<footer>
+    <div class="containerss" style=" position: relative; text-align: center; color: white;">
+        <img id="NoahFooter" src="../resources/photos/Noahs_Ark_CutOut.png" style="width: 100%; height: auto;">
+        <div class="bottom-left" style="color: white; position: absolute; bottom: 8px; left: 16px;">
+            A Kyle Harvey website. <i>2020</i>
+        </div>
+    </div>
+</footer>
+
+</html>
